@@ -36,3 +36,12 @@ div.field_with_errors {
 body {
   padding-top: 56px
 }
+
+th,
+td {
+  vertical-align: middle !important;
+}
+
+.berak-word {
+  word-break: break-word;
+}
