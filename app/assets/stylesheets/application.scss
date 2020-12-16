@@ -13,6 +13,12 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap/scss/bootstrap";
+
+$fa-font-path: '@fortawesome/fortawesome-free/webfonts';
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/refular";
+
 div.field_with_errors {
   display: contents;
 
